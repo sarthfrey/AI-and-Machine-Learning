@@ -21,9 +21,9 @@ for i in range(30):
     i2w2 = i2 * w2
     output = i1w1 + i2w2
     if(output < 1):
-        output = 1
-    else:
         output = 0
+    else:
+        output = 1
     print ''
     print 'output: ' + str(output)
     answ = int(input('expected: '))
